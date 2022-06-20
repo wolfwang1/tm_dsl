@@ -1,0 +1,31 @@
+version: '2'
+services:
+  truck_manager_dsl:
+    image: truck_manager_dsl:latest
+    environment:
+      DEPLOY_ENV: test
+      CFG__DSL_WORKER_COUNT: 16
+      CFG__MAXID_RESTART_STEP: 100000
+      CFG__MYSQL_DBANME: cat_truck_manager_notification
+      CFG__MYSQL_HOST: rm-2ze6oo7xp57r7j11c.mysql.rds.aliyuncs.com
+      CFG__MYSQL_PASSWORD: cat_truck@2021
+      CFG__MYSQL_PORT: 3306
+      CFG__MYSQL_USER: cat_truck
+      CFG__NODE_DB_1ST_MYSQL_DBANME: cat_truck_manager_notification
+      CFG__NODE_DB_1ST_MYSQL_HOST: rm-2ze6oo7xp57r7j11c.mysql.rds.aliyuncs.com
+      CFG__NODE_DB_1ST_MYSQL_PASSWORD: cat_truck@2021
+      CFG__NODE_DB_1ST_MYSQL_PORT: 3306
+      CFG__NODE_DB_1ST_MYSQL_USER: cat_truck
+      CFG__NODE_DB_2ND_MYSQL_DBANME: cat_truck_manager_notification_1
+      CFG__NODE_DB_2ND_MYSQL_HOST: rm-2ze6oo7xp57r7j11c.mysql.rds.aliyuncs.com
+      CFG__NODE_DB_2ND_MYSQL_PASSWORD: cat_truck@2021
+      CFG__NODE_DB_2ND_MYSQL_PORT: 3306
+      CFG__NODE_DB_2ND_MYSQL_USER: cat_truck
+      CFG__NODE_MAX: 3000
+      CFG__SYNC_MAXID_CYCLE: 60
+      CFG__SYNC_NODE_CYCLE: 600
+    cap_add:
+    - SYS_PTRACE
+    mem_limit: 1147483648
+
+

@@ -1,0 +1,12 @@
+{
+    "name"  : "workerman/json-rpc",
+    "type"  : "project",
+    "keywords": ["json","rpc"],
+    "homepage": "http://www.workerman.net",
+    "license" : "MIT",
+    "require": {
+        "workerman/statistics" : ">=1.0.0",
+        "workerman/globaldata": "^1.0",
+        "Workerman/MySQL": "^1.0"
+    }
+}

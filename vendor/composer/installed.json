@@ -1,0 +1,149 @@
+[
+    {
+        "name": "workerman/workerman",
+        "version": "v3.5.4",
+        "version_normalized": "3.5.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/walkor/Workerman.git",
+            "reference": "f6e129079e5f5398bffc218024f2dd95678fc564"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/walkor/Workerman/f6e129079e5f5398bffc218024f2dd95678fc564.zip",
+            "reference": "f6e129079e5f5398bffc218024f2dd95678fc564",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "suggest": {
+            "ext-event": "For better performance. "
+        },
+        "time": "2017-12-06T04:17:52+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Workerman\\": "./"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "walkor",
+                "email": "walkor@workerman.net",
+                "homepage": "http://www.workerman.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "An asynchronous event driven PHP framework for easily building fast, scalable network applications.",
+        "homepage": "http://www.workerman.net",
+        "keywords": [
+            "asynchronous",
+            "event-loop"
+        ]
+    },
+    {
+        "name": "workerman/statistics",
+        "version": "v1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/walkor/workerman-statistics.git",
+            "reference": "c16505ba6549e86bcc9076c233dad16fe8902d43"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/walkor/workerman-statistics/c16505ba6549e86bcc9076c233dad16fe8902d43.zip",
+            "reference": "c16505ba6549e86bcc9076c233dad16fe8902d43",
+            "shasum": ""
+        },
+        "require": {
+            "workerman/workerman": ">=3.3.0"
+        },
+        "time": "2017-05-22T08:06:02+00:00",
+        "type": "project",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "homepage": "http://www.workerman.net"
+    },
+    {
+        "name": "workerman/globaldata",
+        "version": "v1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/walkor/GlobalData.git",
+            "reference": "ea3eca7b351693b4fb8580e7b351f12dd28c78fe"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/walkor/GlobalData/ea3eca7b351693b4fb8580e7b351f12dd28c78fe.zip",
+            "reference": "ea3eca7b351693b4fb8580e7b351f12dd28c78fe",
+            "shasum": ""
+        },
+        "require": {
+            "workerman/workerman": ">=3.3.0"
+        },
+        "time": "2016-06-02T06:35:44+00:00",
+        "type": "project",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GlobalData\\": "./src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "homepage": "http://www.workerman.net"
+    },
+    {
+        "name": "workerman/mysql",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/walkor/mysql.git",
+            "reference": "745d62528372e0ca7f1be05f029493b9fce2dc76"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/walkor/mysql/745d62528372e0ca7f1be05f029493b9fce2dc76.zip",
+            "reference": "745d62528372e0ca7f1be05f029493b9fce2dc76",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pdo": "*",
+            "ext-pdo_mysql": "*",
+            "php": ">=5.3"
+        },
+        "time": "2017-03-18T01:48:33+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Workerman\\MySQL\\": "./src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Long-living MySQL connection for daemon.",
+        "homepage": "http://www.workerman.net",
+        "keywords": [
+            "mysql",
+            "pdo",
+            "pdo_mysql"
+        ]
+    }
+]
